@@ -2,7 +2,7 @@
 
 Nền tảng quyên góp từ thiện minh bạch trên Ethereum. Smart contract tự động giải ngân và hoàn tiền.
 
-## 🏗️ Cấu trúc dự án
+## Cấu trúc dự án
 
 ```
 blockchain-charity/
@@ -30,7 +30,7 @@ blockchain-charity/
 
 ---
 
-## 🚀 Chạy trên VS Code (Local)
+## Chạy trên VS Code (Local)
 
 ### Bước 1: Backend — Deploy Smart Contracts
 
@@ -53,7 +53,7 @@ npm run deploy
 # → Copy địa chỉ 3 contracts được in ra
 ```
 
-> 🔑 Sau khi deploy, copy địa chỉ **CampaignContract**, **GIVToken**, **TransparencyContract**
+>  Sau khi deploy, copy địa chỉ **CampaignContract**, **GIVToken**, **TransparencyContract**
 > vào file `frontend/app/lib/contract.ts` phần `CONTRACT_ADDRESSES`
 
 ### Bước 2: Cài MetaMask
@@ -80,7 +80,7 @@ npm run dev
 
 ---
 
-## 🌐 Chạy trên Remix IDE
+## Chạy trên Remix IDE
 
 Remix IDE là cách nhanh nhất để test Solidity contracts.
 
@@ -131,7 +131,7 @@ Sau khi deploy, trong phần **Deployed Contracts** bạn có thể:
 
 ---
 
-## 📋 Smart Contracts
+## Smart Contracts
 
 ### TransparencyContract
 - Ghi log tất cả donations, releases, refunds on-chain
@@ -153,7 +153,7 @@ Sau khi deploy, trong phần **Deployed Contracts** bạn có thể:
 
 ---
 
-## 🔧 Environment Variables (Tùy chọn — deploy Testnet)
+## Environment Variables (Tùy chọn — deploy Testnet)
 
 Tạo file `backend-blockchain/.env`:
 ```env
@@ -168,7 +168,7 @@ npm run deploy:sepolia
 
 ---
 
-## 🎨 Tech Stack
+##  Tech Stack
 
 | Phần | Công nghệ |
 |------|-----------|
