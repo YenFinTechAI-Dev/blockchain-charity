@@ -1,0 +1,14 @@
+{
+  "name": "blockchain-charity",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend:install": "cd backend-blockchain && npm install",
+    "backend:compile": "cd backend-blockchain && npm run compile",
+    "backend:node": "cd backend-blockchain && npm run node",
+    "backend:deploy": "cd backend-blockchain && npm run deploy",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "install:all": "npm run backend:install && npm run frontend:install"
+  }
+}
