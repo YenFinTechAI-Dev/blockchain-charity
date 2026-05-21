@@ -1,14 +1,19 @@
 {
-  "name": "blockchain-charity",
+  "name": "giv-charity-frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "backend:install": "cd backend-blockchain && npm install",
-    "backend:compile": "cd backend-blockchain && npm run compile",
-    "backend:node": "cd backend-blockchain && npm run node",
-    "backend:deploy": "cd backend-blockchain && npm run deploy",
-    "frontend:install": "cd frontend && npm install",
-    "frontend:dev": "cd frontend && npm run dev",
-    "install:all": "npm run backend:install && npm run frontend:install"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "ethers": "^6.14.3",
+    "framer-motion": "^11.2.10",
+    "next": "15.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.15.3",
+    "lucide-react": "^0.511.0"
   }
 }
